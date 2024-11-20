@@ -1,0 +1,210 @@
+body{
+    background: rgb(10, 108, 200);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50vh;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vh;
+}
+
+button{
+    margin: 10px;
+    width: 500px;
+    height: 70px;
+    font-size: 3rem;
+    font-family: calibri;
+    font-weight: 900;
+}
+
+/* About Section */
+
+.aboutsec{
+    height: 80vh;
+}
+
+.about1{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about1 p{
+    font-size: 2rem;
+    color: white;
+    font-family: calibri;
+    font-weight: 900;
+}
+
+.about2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Game */
+
+/* .game, .game1, .game2, .game3, .game4, .game5, .game6, .game7, .game8, .game9, .game10{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+} */
+
+.question1center, .question2center, .question3center, .question4center, .question5center, .question6center, .question7center, .question8center,.question9center, .question10center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question1center button, .question2center button, .question3center button, .question4center button, .question5center button, .question6center button, .question7center button, .question8center button, .question9center button, .question10center button{
+    font-size: 1.7rem;
+    width: 400px;
+    height: 40px;
+    background: lightblue;
+    transition: 0.6s;
+}
+
+.question1center button:hover, .question2center button:hover, .question3center button:hover, .question4center button:hover, .question5center button:hover, .question6center button:hover, .question7center button:hover, .question8center button:hover, .question9center button:hover, .question10center button:hover{
+    background: rgb(255, 81, 0);
+}
+
+.q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 2.0rem;
+    margin: 50px;
+    font-family: calibri;
+    font-weight: 900;
+    color: white;
+}
+
+/* .question2center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question2center button{
+    font-size: 1.7rem;
+    width: 400px;
+    height: 40px;
+    background: lightblue;
+    transition: 0.6s;
+}
+
+.question2center button:hover{
+    background: rgb(255, 81, 0);
+}
+
+.q2{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 2.0rem;
+    margin: 50px;
+    font-family: calibri;
+    font-weight: 900;
+    color: white;
+}
+
+
+.question3center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question3center button{
+    font-size: 1.7rem;
+    width: 400px;
+    height: 40px;
+    background: lightblue;
+    transition: 0.6s;
+}
+
+.question3center button:hover{
+    background: rgb(255, 81, 0);
+}
+
+.q3{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 2.0rem;
+    margin: 50px;
+    font-family: calibri;
+    font-weight: 900;
+    color: white;
+}
+
+
+.question4center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question4center button{
+    font-size: 1.7rem;
+    width: 400px;
+    height: 40px;
+    background: lightblue;
+    transition: 0.6s;
+}
+
+.question4center button:hover{
+    background: rgb(255, 81, 0);
+}
+
+.q4{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 2.0rem;
+    margin: 50px;
+    font-family: calibri;
+    font-weight: 900;
+    color: white;
+} */
+
+/* Result */
+.result{
+    height: 90vh;
+}
+
+.val{
+    height: 350px;
+    font-size: 5rem;
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: calibri;
+    font-weight: 900;
+}
+
+.totalpoints{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 3rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 900;
+}
